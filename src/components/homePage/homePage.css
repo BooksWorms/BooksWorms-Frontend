@@ -1,0 +1,25 @@
+.home_page {
+  display: grid;
+  grid-template-columns: 22.5% 22.5% 22.5% 22.5%;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  width: 100%;
+  height: fit-content;;
+}
+
+.book {
+  border-style: solid;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 1rem;
+  border-color: #a24e12;
+  display: inline-block;
+  text-align: right;
+  box-shadow: 4px 4px #a24e12;
+}
+
+.book:hover{
+  transform: scale(1.05);
+
+}

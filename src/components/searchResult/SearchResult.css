@@ -1,0 +1,37 @@
+.search-result {
+  height: 30%;
+  width: 30%;
+  border: 2px black solid;
+  box-shadow: 4px 4px #a24e12;
+  text-align: right;
+  margin-top: 3rem;
+  border-radius: 5px;
+  padding: 1.5rem;
+}
+
+.addButton {
+  font-family: sans-serif;
+  background-color: #a24e12;
+  color: white;
+  height: 3rem;
+  width: 10rem;
+  position: relative;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.buyButton {
+  font-family: sans-serif;
+  background-color: #a24e12;
+  color: white;
+  height: 3rem;
+  width: 10rem;
+  position: relative;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.buttonBuyAdd {
+  display: flex;
+  justify-content: space-between;
+}

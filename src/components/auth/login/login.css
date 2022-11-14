@@ -1,0 +1,61 @@
+.login {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 0.25rem;
+  width: fit-content;
+  padding: 1.5rem;
+  justify-content: center;
+  margin-left: 31%;
+  margin-bottom: 4rem;
+  margin-top: 2rem;
+  border-style: solid;
+  border-color: black;
+  color: #a24e12;
+  border-radius: 0.5rem;
+}
+
+.button {
+  font-family: sans-serif;
+  background-color: #a24e12;
+  color: white;
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 4%;
+  border-radius: 8px;
+  margin-left: 5.5rem;
+}
+
+.table td,
+.table th {
+  padding: 0.75rem;
+  vertical-align: middle;
+}
+
+.table {
+  font-family: sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #a24e12;
+}
+
+input {
+  font-family: sans-serif;
+  display: flex;
+  padding: 4px;
+  margin: 6px;
+  height: 25px;
+  width: 230px;
+  border-radius: 8px;
+}
+
+.google {
+  height: 50px;
+  width: 150px;
+  position: relative;
+  left: 4%;
+  border-radius: 8px;
+  margin-left: 5.5rem;
+}
