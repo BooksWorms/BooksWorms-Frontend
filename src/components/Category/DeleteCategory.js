@@ -7,7 +7,7 @@ const DeleteCategory = () => {
 
   const DeleteCategories = () => {
     axios
-      .delete(`/category/${category_id}`, {
+      .delete(`https://booksworms-api.onrender.com/category/${category_id}`, {
         headers: {
           authorization: `Bearer ${localStorage.getItem("token")}`,
         },

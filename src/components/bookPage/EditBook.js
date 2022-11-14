@@ -17,7 +17,7 @@ function EditBookPage() {
 
   const getBookById = () => {
     axios
-      .get(`/book/${book_id}`)
+      .get(`https://booksworms-api.onrender.com/book/${book_id}`)
       .then((result) => {
         setData(result.data[0]);
         setBook_img(result.data[0].book_img);

@@ -9,7 +9,7 @@ export default function Category() {
 
   const categories = (category_id) => {
     axios
-      .get(`/book/Category/${category_id}`)
+      .get(`https://booksworms-api.onrender.com/book/Category/${category_id}`)
       .then((result) => {
         setData(result.data);
       })

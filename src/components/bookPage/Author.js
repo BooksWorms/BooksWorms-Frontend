@@ -7,7 +7,7 @@ export default function Author() {
   const [data, setData] = useState([]);
   const authors = (author_name) => {
     axios
-      .get(`/book/search?KeyWord=${author_name}`)
+      .get(`https://booksworms-api.onrender.com/book/search?KeyWord=${author_name}`)
       .then((result) => {
         setData(result.data);
       })

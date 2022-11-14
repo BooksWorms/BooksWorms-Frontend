@@ -9,7 +9,7 @@ function EditCategory() {
   const EditCategories = () => {
     axios
       .put(
-        `/category/${category_id}`,
+        `https://booksworms-api.onrender.com/category/${category_id}`,
         {
           category: category,
         },

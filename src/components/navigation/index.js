@@ -34,7 +34,7 @@ const Navigation = () => {
     if (!KeyWord) {
       e.preventDefault();
     } else {
-      Axios.get(`/book/search?KeyWord=${KeyWord}`).then((res) => {
+      Axios.get(`https://booksworms-api.onrender.com/book/search?KeyWord=${KeyWord}`).then((res) => {
         dispatch(setResult(res.data));
         history.push("/result");
       });

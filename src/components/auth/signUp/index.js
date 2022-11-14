@@ -12,7 +12,7 @@ const SignUp = () => {
 
   const register = () => {
     axios
-      .post("/Register", {
+      .post("https://booksworms-api.onrender.com/Register", {
         firstName,
         lastName,
         email,

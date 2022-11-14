@@ -16,7 +16,7 @@ function AddBookPage() {
   const AddBook = () => {
     axios
       .post(
-        "/book",
+        "https://booksworms-api.onrender.com/book",
         {
           book_img: book_img,
           title: title,

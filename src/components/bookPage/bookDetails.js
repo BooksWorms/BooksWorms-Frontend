@@ -18,7 +18,7 @@ export default function BookDetails() {
   });
 
   useEffect(() => {
-    axios.get(`/book/search?KeyWord=${state.details.title}`).then((res) => {
+    axios.get(`https://booksworms-api.onrender.com/book/search?KeyWord=${state.details.title}`).then((res) => {
       setBook_img(res.data[0].book_img);
       setTitle(res.data[0].title);
       setDescription(res.data[0].description);

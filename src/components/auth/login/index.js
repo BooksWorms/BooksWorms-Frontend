@@ -30,7 +30,7 @@ const Login = () => {
 
   const signIn = () => {
     axios
-      .post("/login", { email, password })
+      .post("https://booksworms-api.onrender.com/login", { email, password })
       .then((result) => {
         localStorage.setItem("token", result.data);
         dispatch(setToken(result.data));

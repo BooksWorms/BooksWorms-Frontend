@@ -21,7 +21,7 @@ export default function HomePage() {
 
   useEffect(() => {
     axios
-      .get("/book/")
+      .get("https://booksworms-api.onrender.com/book/")
       .then((res) => {
         dispatch(setBooks(res.data));
       })
@@ -36,7 +36,7 @@ export default function HomePage() {
 
   const details = (title) => {
     axios
-      .get(`/book/search?KeyWord=${title}`)
+      .get(`https://booksworms-api.onrender.com/book/search?KeyWord=${title}`)
       .then((res) => {
         dispatch(setDetails(res.data[0]));
         history.push("/bookDetails");

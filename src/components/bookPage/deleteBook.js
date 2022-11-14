@@ -8,7 +8,7 @@ const DeleteBookPage = () => {
 
   const deleteBook = () => {
     axios
-      .delete(`/book/${book_id}`, {
+      .delete(`https://booksworms-api.onrender.com/book/${book_id}`, {
         headers: {
           authorization: `Bearer ${localStorage.getItem("token")}`,
         },

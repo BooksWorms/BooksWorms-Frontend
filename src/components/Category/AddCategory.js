@@ -8,7 +8,7 @@ function AddCategory() {
   const AddCategories = () => {
     axios
       .post(
-        "/category",
+        "https://booksworms-api.onrender.com/category",
         {
           category: category,
         },

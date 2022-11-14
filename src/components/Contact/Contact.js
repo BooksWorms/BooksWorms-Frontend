@@ -12,7 +12,7 @@ export default function ContactUs() {
 
   const contact = () => {
     axios
-      .post("/ContactUs", {
+      .post("https://booksworms-api.onrender.com/ContactUs", {
         fullName: fullName,
         email: email,
         message: message,
